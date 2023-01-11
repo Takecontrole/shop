@@ -1,0 +1,66 @@
+@font-face {
+font-family: Imported;
+src: url(../Raleway/static/Raleway-Thin.ttf);
+}
+@font-face {
+font-family: Import;
+src: url(../Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf);
+}
+.product-images-slider {
+    .swiper-slide {
+      padding-top: 20%;
+   width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+        img {
+          width: 100%;
+            height: 100%;
+        }
+    }
+    
+    
+   
+
+   
+  .swiper-button-prev {
+  color: white;    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+       margin: auto;
+  cursor: pointer;
+  opacity: 0.5;
+  z-index: 2;
+    }
+
+    .swiper-button-next {
+       color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+       margin: auto;
+  cursor: pointer;
+  opacity: 0.5;
+  z-index: 2;
+    }
+}
+
+
+
+.collection {
+  font-family: Import;
+}
+.addition {
+font-family: Imported ;
+font-size: 12px;
+padding-top: 10px;
+padding-bottom: 10px;
+}

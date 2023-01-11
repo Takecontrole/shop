@@ -1,0 +1,9 @@
+@font-face {
+font-family: Imported;
+src: url(./Raleway/static/Raleway-Thin.ttf);
+}
+
+.info{
+  font-family: Imported;
+  padding: 10px;
+}

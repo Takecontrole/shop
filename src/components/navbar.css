@@ -1,0 +1,8 @@
+@font-face {
+font-family: Imported;
+src: url(./Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf);
+}
+
+.logo span {
+  font-family: Imported;
+}
